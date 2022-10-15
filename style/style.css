@@ -137,7 +137,7 @@ h1 {
   line-height: 1.9;
 }
 
-.title1_el {
+.title1_el:hover {
   color: var(--button-secondary-color);
   border-bottom: 3px solid var(--button-secondary-color);
 }
