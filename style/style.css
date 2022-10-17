@@ -333,7 +333,7 @@ h1 {
 /*---------------------------works-------------------------*/
 
 .works {
-  width: 90%;
+  width: 87%;
   margin: 135px auto;
 }
 
@@ -390,10 +390,8 @@ h1 {
 .portfolio-box {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
-  width: 100%;
 }
 
 .portfolio {
@@ -401,25 +399,27 @@ h1 {
   flex-direction: column;
 }
 
-.portfolio-img {
+.portfolio-img > img {
   margin-bottom: 25px;
-  width: 28%;
+  width: 98%;
 }
 
 /*-------------------testimonials---------------------*/
 
 .test {
   margin: 0 auto 250px;
-  width: 87%;
+  width: 80%;
 }
 
 .item {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin: 90px auto 250px;
+  padding: 0;
 }
-
+.item-img > img {
+  width: 93%;
+}
 /*-----------------------------footer------------------------*/
 
 .footer {
